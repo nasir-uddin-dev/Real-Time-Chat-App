@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:real_time_chat_app/pages/chat_page.dart';
 import 'package:real_time_chat_app/pages/home.dart';
 import 'package:real_time_chat_app/pages/onboarding.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: ChatPage(),
     );
   }
 }
